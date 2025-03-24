@@ -27,26 +27,23 @@ Before running the app, ensure you have the following dependencies installed:
 
 You can install the required libraries using the following:
 
-```bash
-pip install streamlit yfinance numpy pandas matplotlib scikit-learn tensorflow
-
-
+`pip install streamlit yfinance numpy pandas matplotlib scikit-learn tensorflow`
 
 ## How to Use the App
-Enter Portfolio Information:
+### Enter Portfolio Information:
 
 In the sidebar, input the stock tickers of the companies in your portfolio (comma-separated).
 
 Enter the corresponding portfolio weights (comma-separated) to allocate among your selected stocks.
 
-Fetch Data:
+### Fetch Data:
 
 Click the "Fetch Data" button to retrieve historical stock data for the selected tickers using Yahoo Finance.
 
-Portfolio Optimization:
+### Portfolio Optimization:
 
 The app will display the optimized portfolio weights based on Modern Portfolio Theory (MPT) and visualize the portfolio's cumulative returns over time.
 
-Reinforcement Learning Agent:
+### Reinforcement Learning Agent:
 
 The app simulates a reinforcement learning agent that dynamically adjusts the portfolio weights based on market conditions.
